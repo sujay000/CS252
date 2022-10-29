@@ -1,0 +1,44 @@
+Unlike Java, multithreading is not supported by the language standard. 
+POSIX Threads (or Pthreads) is a POSIX standard for threads.
+Implementation of pthread is available with gcc compiler. 
+
+
+------------------------------------------------------------------------------------------------------
+HEADERS
+
+#include <unistd.h>  //Header file for sleep(). man 3 sleep for details.
+
+
+------------------------------------------------------------------------------------------------------
+PTHREAD CREATE
+
+pthread_create() takes 4 arguments. 
+
+The first argument is a pointer to thread_id which is set by this function. 
+
+The second argument specifies attributes. If the value is NULL, then default attributes shall be used. 
+
+The third argument is name of function to be executed for the thread to be created. 
+
+The fourth argument is used to pass arguments to the function, myThreadFun. 
+
+
+------------------------------------------------------------------------------------------------------
+PTHREAD JOIN
+
+The pthread_join() function for threads is the equivalent of wait() for processes.
+A call to pthread_join blocks the calling thread until the thread with identifier equal to the first argument terminates. 
+
+
+------------------------------------------------------------------------------------------------------
+MALLOC 
+
+ptr = (cast-type*) malloc(byte-size)
+ptr = (int*) malloc(100 * sizeof(int));
+
+it returns pointer of type void, which can be typecasted into pointer of any form
+
+
+------------------------------------------------------------------------------------------------------
+
+
