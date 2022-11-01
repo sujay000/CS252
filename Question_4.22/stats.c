@@ -84,7 +84,7 @@ void main(int argc, char *argv[])
  
     printf("\n\n");
 
-    // Declaring three worker threads t1,t2,t3,t4,t5.
+    // Declaring three worker threads t1,t2,t3
     pthread_t t1;
     pthread_t t2;
     pthread_t t3;

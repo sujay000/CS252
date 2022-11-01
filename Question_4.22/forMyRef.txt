@@ -41,4 +41,25 @@ it returns pointer of type void, which can be typecasted into pointer of any for
 
 ------------------------------------------------------------------------------------------------------
 
+REF
+
+https://www.geeksforgeeks.org/multithreading-c-2/ 
+
+------------------------------------------------------------------------------------------------------
+
+SLEEP
+
+sleep(no_of_seconds);
+
+makes the process sleep for that amount of seconds
+
+
+------------------------------------------------------------------------------------------------------
+
+TO GET THE PROCESS ID OF THE PROCESS
+
+getpid()
+
+
+------------------------------------------------------------------------------------------------------
 
