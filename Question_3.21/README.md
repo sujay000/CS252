@@ -1,6 +1,6 @@
-# Question 3.21 - Chapter: Processes
+# Question 3.21 - Chapter Processes
 
-## Statement:
+## Statement
 
 The Collatz conjecture concerns what happens when we take any positive integer n and apply the following algorithm:
 
@@ -16,24 +16,36 @@ parent and child processes have their own copies of the data, it will be necessa
 the wait() call to wait for the child process to complete before exiting the program. Perform necessary error checking to ensure that a positive
 integer is passed on the command line.<p>
   
-## Instructions
-[collatz.c]( name.c) - source code for Collatz conjecture program
+## Source Code
+[collatz.c]( https://github.com/sujay000/CS252/blob/dev/Question_3.21/collatz.c)
   
-#### Instructions to follow while compiling this code
-Enter the following on the command line<br>
-1. ``` gcc collatz.c  ```
-  
-The starting number is provided on the command line:<br> 
-  
-2. ``` ./a.out {starting number} ```
+### Instructions
+- Download/Clone the Github repo.
+```sh
+git clone https://github.com/sujay000/CS252.git
+```
 
-The result will be displayed on the command line.
+```sh
+cd CS252/Question_3.21
+```
+
+-   Compile the program
+
+```sh
+gcc collatz.c
+```
+
+-   Run the compiled program and enter the starting number
+
+```sh
+./a.out {starting number}
+```
 
 ## Demo
 
 #### The result for n = 3 is shown below:<br>
 
-![result_35](images/output.png)
+![result_3](images/output.png)
 
 The following function calls are used:
 
@@ -53,3 +65,11 @@ The following function calls are used:
 -   [https://github.com/RoystonDsouza42/CS252/tree/main/Question%203.21](https://github.com/RoystonDsouza42/CS252/tree/main/Question%203.21)
 
 Note: Source code was taken from [@RoystonDsouza42](https://github.com/RoystonDsouza42)'s repo and minor changes were made to it.
+
+## Resources
+
+The following were used to understand the concept and the code
+
+-   [https://youtu.be/tcYo6hipaSA](https://youtu.be/tcYo6hipaSA)
+
+-   [https://youtu.be/cex9XrZCU14](https://youtu.be/cex9XrZCU14)
