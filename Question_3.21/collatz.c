@@ -29,7 +29,7 @@ return 0;
 void main(int argc, char *argv[])
 {
     //Declaring required variables.
-    int num, k = 0;
+    int num; 
     pid_t pid;
 
     printf("\n\n------The Collatz conjecture-------\n");
@@ -74,7 +74,7 @@ void main(int argc, char *argv[])
     else if (pid > 0) // parent process
     {
         printf("Parent is waiting for child process to finish\n");
-        wait(&k);
+        wait();
         // When the child is ended, then the parent will continue to execute its code
         printf("\nParent process is done.\n");
     }
