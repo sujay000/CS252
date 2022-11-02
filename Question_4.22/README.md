@@ -42,7 +42,7 @@ cd CS252/Question_4.22
 gcc stats.c -lpthread
 ```
 
--   Run the compiled program and enter the starting number
+-   Run the compiled program and enter the data
 
 ```sh
 ./a.out {data...}
