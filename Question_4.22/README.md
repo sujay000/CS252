@@ -19,9 +19,6 @@ the parent thread will output the values once the workers have exited.
 (We could obviously expand this program by creating additional threads
 that determine other statistical values, such as median and standard
 deviation.)
-  
-<!-- ## Instructions
-[stats.c](.c) - source code for statistical values program. -->
 
 ## Source Code
 
@@ -95,6 +92,6 @@ The following were used to understand the concept and the code
 
 -   [https://youtu.be/d9s_d28yJq0](https://youtu.be/d9s_d28yJq0)
 
--   [https://youtu.be/xoXzp4B8aQk](https://youtu.be/xoXzp4B8aQk)
-
 -   [https://youtu.be/ln3el6PR\_\_Q](https://youtu.be/ln3el6PR__Q)
+
+-   [https://youtu.be/w_8bFrHUK5Q](https://youtu.be/w_8bFrHUK5Q)
